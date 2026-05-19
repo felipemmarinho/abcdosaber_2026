@@ -1,7 +1,11 @@
+para criar um repositoriano git, 
 
+1 - crie um repositorio no git
+2 - copie o endereço no git
+3 - shift + crtl + p
 
-
-
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+criando um venv
 crtl + shift + P
 escolher 
 Python enviroment -> venv -> versão do python
@@ -14,3 +18,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 criando o arquivo readme.md
 
 tutorial  https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+ativar o venv
+.\.venv\Scripts\activate
+instalando odjango
+pip install Django==4.2.18 
+
+para gravar as dependencias do projeto
+pip freeze > requeriments.txt
