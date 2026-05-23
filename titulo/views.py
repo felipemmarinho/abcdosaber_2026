@@ -7,3 +7,17 @@ def show_view(request):
 
 def show_template(request):
     return HttpResponse( "<p> Minha view do app Títulos usando template </p>")
+
+def listar_exemplo(request):
+    pagina='Olá'
+    return HttpResponse(pagina)
+
+def abc(request):
+    pagina = 'ABC'
+    return HttpResponse(pagina)
+
+def index(request):
+    return render(request, 'index.html')
+
+def teste(request):
+    return render(request, 'teste.html')
