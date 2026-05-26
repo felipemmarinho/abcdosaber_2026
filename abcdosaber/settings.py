@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'titulo.apps.TituloConfig',
-    
+    'aluno.apps.AlunoConfig',
+    'instrutor.apps.InstrutorConfig',
+    'tipodeatividade.apps.TipodeatividadeConfig',
+    'turma.apps.TurmaConfig',
+    'utilitarios.apps.UtilitariosConfig',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +61,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'templates'
+            'templates',
             ],
         'APP_DIRS': True,
         'OPTIONS': {

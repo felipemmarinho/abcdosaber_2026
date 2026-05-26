@@ -48,3 +48,5 @@ pip install Django==4.2.18
 
 para gravar as dependencias do projeto
 pip freeze > requeriments.txt
+
+criando um app
