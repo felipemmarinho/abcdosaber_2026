@@ -4,5 +4,5 @@ from django.shortcuts import render
 # Create your views here.
 
 def aluno(request):
-   pagina='Olá'
+   pagina='Olá, sou a view do app aluno'
    return HttpResponse(pagina)
